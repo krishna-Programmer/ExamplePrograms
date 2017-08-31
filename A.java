@@ -19,8 +19,6 @@ System.out.println("enter the range");
 int range=new Scanner(System.in).nextInt();
 int i=0;
 while(range>0)i+=countOnes(range--);
-
-
 System.out.println(i);
 }
 static int countOnes(int i)
