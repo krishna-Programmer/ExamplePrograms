@@ -24,6 +24,6 @@ System.out.println(i);
 static int countOnes(int i)
 {
 if(i==0)return 0;
-return (i%2==1?0:1)+countOnes(i/2);
+return (i%2==0?0:1)+countOnes(i/2);
 }
 }
